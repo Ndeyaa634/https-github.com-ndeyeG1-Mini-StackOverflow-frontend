@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom globals */
+body {
+  @apply bg-brand-blue text-white;
+}
+
+/* container */
+.app-container {
+  @apply max-w-6xl mx-auto px-4;
+}
